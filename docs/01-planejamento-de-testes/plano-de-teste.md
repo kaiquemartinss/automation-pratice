@@ -1,4 +1,4 @@
-# 📘 Plano de Teste – Automation Practice
+# Plano de Teste – Automation Practice
 
 ## 1. Objetivo
 Garantir a qualidade das principais funcionalidades do site Automation Pratice, validando fluxo de compra, cadastro, login, busca, carrinho e checkout.

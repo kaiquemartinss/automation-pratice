@@ -9,21 +9,18 @@ O objetivo é demonstrar domínio de:
 - Casos de teste funcionais
 - Cenários de teste
 - Testes exploratórios
-- Matriz de rastreabilidade
 - Relatórios de bugs
 
 ---
 
 ## 📂 Estrutura do Repositório
 docs/  
-├── plano-de-teste.md  
-├── estrategia-de-testes.md  
-├── requisitos.md  
-├── matriz-rastreabilidade.md  
-├── cenarios-alto-nivel.md  
-├── casos-de-teste.md  
-├── roteiro-exploratorio.md  
-└── relatorio-bugs-template.md  
+├── /01-planejamento-de-testes  
+├── /02-cenarios  
+├── /03-casos-de-teste  
+├── /04-evidencias  
+├── /05-bugs-report   
+└── /06-relatorio-final  
 
 
 ---
