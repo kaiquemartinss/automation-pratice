@@ -13,13 +13,12 @@ O objetivo é demonstrar domínio de:
 
 ---
 
-## 📂 Estrutura do Repositório
-docs/  
+## 📂 Estrutura do Repositório 
 ├── /01-planejamento-de-testes  
 ├── /02-casos-de-teste  
 ├── /03-evidencias  
 ├── /04-bugs-report   
-└── /05-relatorio-final  
+├── /05-relatorio-final  
 
 
 ---
