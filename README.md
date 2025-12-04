@@ -15,7 +15,7 @@ O objetivo é demonstrar domínio de:
 ---
 
 ## 📂 Estrutura do Repositório
-docs/
+docs/  
 ├── plano-de-teste.md  
 ├── estrategia-de-testes.md  
 ├── requisitos.md  
