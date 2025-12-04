@@ -6,8 +6,8 @@ O objetivo é demonstrar domínio de:
 
 - Análise de requisitos
 - Planejamento de testes
-- Casos de teste funcionais
 - Cenários de teste
+- Casos de teste funcionais
 - Testes exploratórios
 - Relatórios de bugs
 
@@ -16,11 +16,10 @@ O objetivo é demonstrar domínio de:
 ## 📂 Estrutura do Repositório
 docs/  
 ├── /01-planejamento-de-testes  
-├── /02-cenarios  
-├── /03-casos-de-teste  
-├── /04-evidencias  
-├── /05-bugs-report   
-└── /06-relatorio-final  
+├── /02-casos-de-teste  
+├── /03-evidencias  
+├── /04-bugs-report   
+└── /05-relatorio-final  
 
 
 ---
