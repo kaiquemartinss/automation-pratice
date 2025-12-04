@@ -5,7 +5,12 @@ Garantir a qualidade das principais funcionalidades do site Automation Pratice, 
 
 ---
 
-## 2. Escopo
+## 2. Abordagem Geral
+Os testes serão executados manualmente, seguindo cenários funcionais e exploratórios, cobrindo validações críticas primeiro.
+
+---
+
+## 3. Escopo
 
 ### ✔ Incluído
 - Cadastro
@@ -26,7 +31,7 @@ Garantir a qualidade das principais funcionalidades do site Automation Pratice, 
 
 ---
 
-## 3. Riscos
+## 4. Riscos
 
 - Instabilidade do site
 - Não há documentação oficial
@@ -34,25 +39,40 @@ Garantir a qualidade das principais funcionalidades do site Automation Pratice, 
 
 ---
 
-## 4. Critérios de Entrada
+## 5. Critérios de Entrada
 - Ambiente disponível
 - Acesso ao site
 - Mensagens corretas devem aparecer em casos negativos
 - Carrinho deve refletir corretamente item, preço, quantidade e total
 
-## 5. Critérios de Saída
+## 6. Critérios de Saída
 - Todos os casos críticos executados
 - Bugs críticos corrigidos
 - Nenhuma quebra no fluxo principal
 
 ---
 
-## 6. Estratégia de Teste
+## 7. Estratégia de Teste
 - Testes funcionais
 - Testes exploratórios
 - Particionamento de equivalência
 - Análise de valor limite
 - Testes de regressão
+
+---
+
+## 8. Tipos de Teste
+- **Funcionais**
+- **UI/UX**
+- **Exploratórios**
+- **Regressão**
+
+---
+
+## 9. Ambiente de Testes
+**URL:** https://www.automationpratice.com.br/  
+**Navegador principal:** Google Chrome
+**Sistema Operacional:** Linux Mint Cinnamon
 
 ---
 
