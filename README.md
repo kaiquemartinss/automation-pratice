@@ -16,14 +16,14 @@ O objetivo é demonstrar domínio de:
 
 ## 📂 Estrutura do Repositório
 docs/
-├── plano-de-teste.md
-├── estrategia-de-testes.md
-├── requisitos.md
-├── matriz-rastreabilidade.md
-├── cenarios-alto-nivel.md
-├── casos-de-teste.md
-├── roteiro-exploratorio.md
-└── relatorio-bugs-template.md
+├── plano-de-teste.md  
+├── estrategia-de-testes.md  
+├── requisitos.md  
+├── matriz-rastreabilidade.md  
+├── cenarios-alto-nivel.md  
+├── casos-de-teste.md  
+├── roteiro-exploratorio.md  
+└── relatorio-bugs-template.md  
 
 
 ---
