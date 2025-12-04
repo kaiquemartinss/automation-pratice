@@ -1,4 +1,4 @@
-# Cenários de Teste – Automation Pratice (Tabela Simplificada)
+# Cenários de Teste – Automation Pratice 
 
 ## 1. Cadastro
 
