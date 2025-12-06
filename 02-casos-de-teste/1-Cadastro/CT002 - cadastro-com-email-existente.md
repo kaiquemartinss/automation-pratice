@@ -33,12 +33,12 @@ Validar que o sistema impeça a criação de um novo usuário utilizando um e-ma
 ---
 
 ### Status
-- Falhou ❌  
+Falhou ❌  
 
 ---
 
 ### Resultado Encontrado
-- Sistema está permitindo realizar cadastro, mesmo para um email que já foi cadastrado anteriormente.
+Sistema está permitindo realizar cadastro, mesmo para um email que já foi cadastrado anteriormente.
   
 ---
 

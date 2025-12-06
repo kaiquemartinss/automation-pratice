@@ -33,12 +33,12 @@ Validar que o sistema permite a criação de um novo usuário quando todos os da
 ---
 
 ### Status
-- Passou ✅  
+Passou ✅  
 
 ---
 
 ### Resultado Encontrado
-- O mesmo que o esperado  
+O mesmo que o esperado  
 
 ---
 
