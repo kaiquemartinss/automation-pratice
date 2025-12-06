@@ -32,8 +32,18 @@ Validar que o sistema permite a criação de um novo usuário quando todos os da
 
 ---
 
+### Status
+- Passou ✅  
+
+---
+
+### Resultado Encontrado
+- O mesmo que o esperado  
+
+---
+
 ### Evidências
-![EV-CT001](../03-evidencias/EV-CT001.png)
+![EV-CT001](../../03-evidencias/EV-CT001.png)
 
 
 

@@ -5,7 +5,7 @@
 | ID     | Cenário                                               | Tipo        | Pré-condição                       | Resultado Esperado                                      |
 |--------|--------------------------------------------------------|-------------|-------------------------------------|----------------------------------------------------------|
 | CEN01  | Cadastro com dados válidos                             | Positivo    | Usuário não cadastrado              | Conta criada com sucesso                                 |
-| CEN02  | Cadastro com e-mail já existente                       | Negativo    | E-mail já registrado                | Exibir mensagem de e-mail duplicado                      |
+| CEN02  | Cadastro com e-mail já existente                       | Negativo    | E-mail já registrado                | Exibir mensagem de e-mail já cadastrado                      |
 | CEN03  | Campos obrigatórios vazios                             | Negativo    | Nenhuma                              | Exibir alerta indicando campos obrigatórios               |
 | CEN04  | Senha menor que 6 caracteres                           | Negativo    | Nenhuma                              | Exibir mensagem de senha inválida                         |
 | CEN05  | E-mail em formato inválido                             | Negativo    | Nenhuma                              | Exibir mensagem de e-mail inválido                       |
