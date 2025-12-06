@@ -19,7 +19,7 @@
 | CEN06  | Login com credenciais corretas                         | Positivo    | Usuário cadastrado                  | Login realizado com sucesso                              |
 | CEN07  | Login com senha incorreta                              | Negativo    | Conta existente                     | Mensagem de senha incorreta                              |
 | CEN08  | Login com e-mail não cadastrado                        | Negativo    | Nenhuma                              | Mensagem de usuário não encontrado                       |
-| CEN09  | Tentar logar com campo Senha vazio                         | Negativo    | Nenhuma                              | Sistema solicita preenchimento dos campos                |
+| CEN09  | Tentar logar com campo Senha vazio                         | Negativo    | Nenhuma                              | Exibir mensagem de senha inválida                |
 | CEN10  | Tentar logar com campo Email vazio                              | Negativo    | Nenhuma                              | Exibir mensagem de e-mail inválido                       |
 
 ---
