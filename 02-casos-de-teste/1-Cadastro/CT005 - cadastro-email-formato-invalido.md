@@ -43,7 +43,7 @@ O mesmo que o resultado esperado
 ---
 
 ### Evidências
-![EV-CT004](../../03-evidencias/EV-CT005.png)
+![EV-CT005](../../03-evidencias/EV-CT005.png)
 
 
 
