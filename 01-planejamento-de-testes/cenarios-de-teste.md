@@ -31,18 +31,17 @@
 | CEN11  | Busca por produto existente                            | Positivo    | Produto listado no sistema          | Exibição dos produtos encontrados                        |
 | CEN12  | Busca por produto inexistente                          | Negativo    | Nenhuma                              | Mensagem “Nenhum produto encontrado”                    |
 | CEN13  | Busca com campo vazio                                  | Negativo    | Nenhuma                              | Solicitar preenchimento do campo                         |
-| CEN14  | Busca exibindo resultados relacionados (se houver)     | Positivo    | Nenhuma                              | Exibir produtos relacionados ao termo buscado            |
 
 ---
 
 ## 4. Visualização de Produtos
 
-| ID     | Cenário                                               | Tipo        | Pré-condição                       | Resultado Esperado                                      |
-|--------|--------------------------------------------------------|-------------|-------------------------------------|----------------------------------------------------------|
-| CEN15  | Visualizar detalhes de um produto                      | Positivo    | Produto existente                   | Exibir nome, descrição, imagem e preço                   |
-| CEN16  | Navegar pelas imagens do produto                       | Positivo    | Produto com galeria de imagens      | Imagem principal deve ser atualizada                     |
-| CEN17  | Visualizar preço e descrição                           | Positivo    | Produto existente                   | Dados corretos devem ser exibidos                        |
-| CEN18  | Exibir produtos relacionados                           | Positivo    | Produtos relacionados cadastrados   | Lista de produtos relacionados deve aparecer             |
+| ID     | Cenário                                                  | Tipo        | Pré-condição                       | Resultado Esperado                                      |
+|--------|-----------------------------------------------------------|-------------|-------------------------------------|----------------------------------------------------------|
+| CEN14  | Visualizar detalhes de um produto                         | Positivo    | Produto existente                   | Exibir nome, descrição, imagem e preço                   |
+| CEN15  | Navegar pelas imagens do produto                          | Positivo    | Produto com galeria de imagens      | Imagem principal deve ser atualizada                     |
+| CEN16  | Visualizar preço e descrição                              | Positivo    | Produto existente                   | Dados corretos devem ser exibidos                        |
+| CEN17  | Exibir produtos relacionados                              | Positivo    | Produtos relacionados cadastrados   | Lista de produtos relacionados deve aparecer             |
 
 ---
 
@@ -50,11 +49,11 @@
 
 | ID     | Cenário                                               | Tipo        | Pré-condição                       | Resultado Esperado                                      |
 |--------|--------------------------------------------------------|-------------|-------------------------------------|----------------------------------------------------------|
-| CEN19  | Adicionar produto ao carrinho                          | Positivo    | Produto disponível                  | Item adicionado ao carrinho                              |
-| CEN20  | Remover produto do carrinho                            | Positivo    | Carrinho com itens                  | Item removido com sucesso                                |
-| CEN21  | Atualizar quantidade de itens                          | Positivo    | Item no carrinho                    | Quantidade alterada e total atualizado                   |
-| CEN22  | Validar cálculo total do carrinho                      | Positivo    | Carrinho com itens                  | Total exibido corretamente                               |
-| CEN23  | Carrinho vazio após remover todos os itens             | Positivo    | Carrinho previamente preenchido     | Carrinho exibe mensagem de vazio                         |
+| CEN18  | Adicionar produto ao carrinho                          | Positivo    | Produto disponível                  | Item adicionado ao carrinho                              |
+| CEN19  | Remover produto do carrinho                            | Positivo    | Carrinho com itens                  | Item removido com sucesso                                |
+| CEN20  | Atualizar quantidade de itens                          | Positivo    | Item no carrinho                    | Quantidade alterada e total atualizado                   |
+| CEN21  | Validar cálculo total do carrinho                      | Positivo    | Carrinho com itens                  | Total exibido corretamente                               |
+| CEN22  | Carrinho vazio após remover todos os itens             | Positivo    | Carrinho previamente preenchido     | Carrinho exibe mensagem de vazio                         |
 
 ---
 
@@ -62,11 +61,11 @@
 
 | ID     | Cenário                                               | Tipo        | Pré-condição                       | Resultado Esperado                                      |
 |--------|--------------------------------------------------------|-------------|-------------------------------------|----------------------------------------------------------|
-| CEN24  | Finalizar compra com dados válidos                     | Positivo    | Carrinho com itens                  | Pedido finalizado com sucesso                            |
-| CEN25  | Tentar finalizar compra com dados inválidos            | Negativo    | Carrinho com itens                  | Exibir mensagens de erro                                 |
-| CEN26  | Selecionar forma de pagamento                          | Positivo    | Fluxo de checkout iniciado          | Pagamento selecionado corretamente                       |
-| CEN27  | Validar cálculo final do pedido                        | Positivo    | Checkout iniciado                   | Total calculado corretamente                             |
-| CEN28  | Exibir confirmação do pedido                           | Positivo    | Compra finalizada                   | Tela/confirmação de pedido exibida                       |
+| CEN23  | Finalizar compra com dados válidos                     | Positivo    | Carrinho com itens                  | Pedido finalizado com sucesso                            |
+| CEN24  | Tentar finalizar compra com dados inválidos            | Negativo    | Carrinho com itens                  | Exibir mensagens de erro                                 |
+| CEN25  | Selecionar forma de pagamento                          | Positivo    | Fluxo de checkout iniciado          | Pagamento selecionado corretamente                       |
+| CEN26  | Validar cálculo final do pedido                        | Positivo    | Checkout iniciado                   | Total calculado corretamente                             |
+| CEN27  | Exibir confirmação do pedido                           | Positivo    | Compra finalizada                   | Tela/confirmação de pedido exibida                       |
 
 ---
 
@@ -74,9 +73,10 @@
 
 | ID     | Cenário                                               | Tipo        | Pré-condição                       | Resultado Esperado                                      |
 |--------|--------------------------------------------------------|-------------|-------------------------------------|----------------------------------------------------------|
-| CEN29  | Enviar mensagem com dados válidos                      | Positivo    | Nenhuma                              | Mensagem enviada com sucesso                             |
-| CEN30  | Enviar formulário com campos vazios                    | Negativo    | Nenhuma                              | Exibir mensagens de campos obrigatórios                  |
-| CEN31  | Enviar com e-mail inválido                             | Negativo    | Nenhuma                              | Exibir mensagem de e-mail inválido                       |
-| CEN32  | Enviar mensagem muito longa (testar limites)           | Negativo    | Campo com limite definido           | Exibir aviso ou bloquear envio                           |
+| CEN28  | Enviar mensagem com dados válidos                      | Positivo    | Nenhuma                              | Mensagem enviada com sucesso                             |
+| CEN29  | Enviar formulário com campos vazios                    | Negativo    | Nenhuma                              | Exibir mensagens de campos obrigatórios                  |
+| CEN30  | Enviar com e-mail inválido                             | Negativo    | Nenhuma                              | Exibir mensagem de e-mail inválido                       |
+| CEN31  | Enviar mensagem muito longa (testar limites)           | Negativo    | Campo com limite definido           | Exibir aviso ou bloquear envio                           |
 
 ---
+
