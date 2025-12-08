@@ -16,10 +16,8 @@ Os testes serão executados manualmente, seguindo cenários funcionais e explora
 - Cadastro
 - Login
 - Busca de produtos
-- Visualização de produtos
 - Carrinho
 - Checkout
-- Contato
 
 ### ✖ Fora do Escopo
 - Testes automatizados
