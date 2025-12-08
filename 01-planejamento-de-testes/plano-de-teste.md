@@ -61,9 +61,9 @@ Os testes serão executados manualmente, seguindo cenários funcionais e explora
 
 ## 8. Tipos de Teste
 - **Funcionais**
-- **UI/UX**
 - **Exploratórios**
 - **Regressão**
+- **UI/UX**
 
 ---
 
